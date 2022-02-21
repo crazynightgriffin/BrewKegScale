@@ -11,5 +11,6 @@ https://brewkegscale.wordpress.com
 
 # Lines which need updating with your details.
 V0.1
-- line 73  WiFiMulti.addAP("YOUR SSID", "YOUR WiFi PASSWORD");
+- line 16 float keg_tare_weight = 4107; //Aamend this figure with the weight of your keg empty in grams
+- line 73 WiFiMulti.addAP("YOUR SSID", "YOUR WiFi PASSWORD");
 - line 225 String jsondata = "{\"token\":\"YOUR API TOKEN\",\"unit\":\"pint\",\"kegVolume\":\"34\",\"beerLeft\":\"" + pints_left_string + "\"}";
