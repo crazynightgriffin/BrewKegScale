@@ -9,9 +9,7 @@ https://brewkegscale.wordpress.com
 
 
 
-# Lines which need updating with our details.
+# Lines which need updating with your details.
 V0.1
-
-line 73  WiFiMulti.addAP("YOUR SSID", "YOUR WiFi PASSWORD");
-
-line 225 String jsondata = "{\"token\":\"YOUR API TOKEN\",\"unit\":\"pint\",\"kegVolume\":\"34\",\"beerLeft\":\"" + pints_left_string + "\"}";
+- line 73  WiFiMulti.addAP("YOUR SSID", "YOUR WiFi PASSWORD");
+- line 225 String jsondata = "{\"token\":\"YOUR API TOKEN\",\"unit\":\"pint\",\"kegVolume\":\"34\",\"beerLeft\":\"" + pints_left_string + "\"}";
